@@ -2,7 +2,7 @@ function init() {
     //add your javascrip between these two lines of code
     function alert_me() {
 
-        var input = document.getElementById("entryinput").nodeValue;
+        var input = document.getElementById("entryinput").value;
         var username = document.querySelector("h2.center").innerHTML;
         alert(username + ": " + input);
 
